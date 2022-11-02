@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george2124/backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/george2124/backend/issues"
+  },
+  "homepage": "https://github.com/george2124/backend#readme",
+  "description": ""
+
+}
