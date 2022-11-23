@@ -23,12 +23,13 @@ server.listen(PORT,() => {
 //ejemplo de express
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = process.env.PORT | 8080;
 
 app.get("/",(req, res) => {
     res.send("Hello Word!");
 });
 app.get("/matias",(req, res) => {
+    //magia para buscar uno cualquiera random
     res.json({id:102, name:"matias",age:40});
 });
 app.get("/sofia",(req, res) => {
